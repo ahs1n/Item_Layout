@@ -146,29 +146,31 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
                             android:orientation="vertical">
 
                             <TextView
-                                android:layout_width="wrap_content"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="start"
                                 android:text="Complete"
+                                android:layout_marginBottom="@dimen/_5sdp"
                                 android:textColor="@color/gray"
-                                android:textSize="@dimen/_12sdp" />
+                                android:textSize="@dimen/_10sdp" />
 
                             <TextView
-                                android:layout_width="wrap_content"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:gravity="start"
                                 android:text="Incomplete"
-                                android:textSize="@dimen/_12sdp" />
+                                android:textSize="@dimen/_10sdp" />
                         </LinearLayout>
 
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
-                            android:layout_marginLeft="@dimen/_4sdp"
+                            android:layout_marginStart="@dimen/_3sdp"
                             android:gravity="center"
                             android:orientation="vertical">
 
@@ -176,15 +178,16 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="30"
-                                android:textColor="@color/gray"
-                                android:textSize="@dimen/_9sdp" />
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_12sdp" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
+                                android:textColor="@color/black"
                                 android:layout_marginTop="@dimen/_2sdp"
                                 android:text="10"
-                                android:textSize="@dimen/_9sdp" />
+                                android:textSize="@dimen/_12sdp" />
                         </LinearLayout>
 
                     </LinearLayout>
@@ -193,7 +196,9 @@
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:gravity="center">
+                        android:gravity="center|end"
+                        android:paddingStart="@dimen/_1sdp"
+                        android:paddingEnd="@dimen/_10sdp">
 
                         <ImageButton
                             android:id="@+id/btn_summary"
