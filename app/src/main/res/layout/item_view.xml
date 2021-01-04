@@ -144,7 +144,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="@dimen/_20sdp"
                     android:layout_marginTop="@dimen/_2sdp"
-                    android:drawableLeft="@drawable/ic_baseline_add_24"
+                    android:drawableLeft="@drawable/ic_add"
                     android:text="Siblings"
                     android:textSize="@dimen/_6sdp"
                     tools:ignore="RtlHardcoded" />
